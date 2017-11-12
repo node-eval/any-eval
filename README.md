@@ -21,6 +21,12 @@ Supports JS-expression, CommonJS module contents and JSON/JSON5.
 [david]:         https://david-dm.org/node-eval/any-eval
 [david-img]:     https://img.shields.io/david/node-eval/any-eval/master.svg
 
+## Install
+
+```
+$ npm install --save any-eval
+```
+
 ## Usage
 
 ### JS-expression

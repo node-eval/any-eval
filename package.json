@@ -1,6 +1,6 @@
 {
   "name": "any-eval",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Super handy eval of anything",
   "license": "MIT",
   "repository": "node-eval/any-eval",

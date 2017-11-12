@@ -162,5 +162,5 @@ anyEval(content, { secretKey }); // '^___^'
 ## Related
 
 * [node-eval](https://github.com/node-eval/node-eval) — eval Node.js contents only (JS-expression, CommonJS modules and JSON).
-* [file-eval](https://github.com/node-eval/file-eval) — read file and eval it with `any-eval`.
-
+* [node-file-eval](https://github.com/node-eval/file-eval) — read node.js file and eval it with [node-eval](https://github.com/node-eval/node-eval).
+* [file-eval](https://github.com/node-eval/file-eval) — read any file and eval it with [any-eval](https://github.com/node-eval/any-eval).

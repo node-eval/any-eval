@@ -1,0 +1,43 @@
+{
+  "name": "any-eval",
+  "version": "0.0.0",
+  "description": "Super handy eval of anything",
+  "license": "MIT",
+  "repository": "node-eval/any-eval",
+  "author": "Andrew Abramov <mail@blond.im> (github.com/blond)",
+  "keywords": [
+    "eval",
+    "JS-expression",
+    "CommonJS",
+    "JSON",
+    "JSON5"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 4"
+  },
+  "dependencies": {
+    "json5": "0.5.1",
+    "node-eval": "2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.11.0",
+    "eslint-config-pedant": "^1.0.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "proxyquire": "^1.8.0",
+    "sinon": "^4.1.2",
+    "sinon-chai": "^2.14.0"
+  },
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "npm run cover",
+    "test:unit": "mocha test/**{,/*}.test.js",
+    "cover": "nyc npm run test:unit",
+    "lint": "eslint ."
+  }
+}

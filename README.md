@@ -1,5 +1,7 @@
 # any-eval
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/node-eval/any-eval.svg)](https://greenkeeper.io/)
+
 Super handy eval of anything.
 
 Supports JS-expression, CommonJS module contents and JSON/JSON5.

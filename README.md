@@ -60,7 +60,7 @@ anyEval(jsonContents, 'my.json'); // filename need to `any-eval` determinate jso
 // ➜ { name: 'any-eval' }
 ```
 
-### JSON
+### JSON5
 
 ```js
 const anyEval = require('any-eval');

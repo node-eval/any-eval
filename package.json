@@ -20,7 +20,7 @@
     "node": ">= 4"
   },
   "dependencies": {
-    "json5": "0.5.1",
+    "json5": "2.0.1",
     "node-eval": "2.0.0"
   },
   "devDependencies": {
